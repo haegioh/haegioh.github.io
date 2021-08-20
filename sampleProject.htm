@@ -54,89 +54,11 @@
                     <p>This interactive dashboard showcases the min/max values for copay and
 Medicare prices for new vs. established patients filtered by zipcode. The input data consists of an Emergency Medicine dataset from
                         <i>The Centers for Medicare & Medicaid Services</i>.
+                        <b> Note: I'm unable to display the interactive portion of the
+                            dashboard due to not having access to a Tableau Online/Server account.</b>
                     </p>
 
-<h3>Schema and Structural Design</h3>
+<p><img alt="" src="sampleProject_files/health_data3.jpg"></p>
 
-<p><img alt="" src="sampleProject_files/videoanalytics3.png"></p>
-
-<p>The goal for end-users was to be able to see&nbsp;<em>where</em>&nbsp;students stopped watching,&nbsp;<em>how many</em>&nbsp;students
- drop out at a given time (and how many stay engaged), as well as the 
-percentage of viewers who watch from beginning to end. I designed the 
-data model of the API to deliver this information semantically and 
-quickly, running most calculations on the SQL server so as not to jam up
- the API server.</p>
-
-<h3>The API</h3>
-
-<p>Our API was created so that individual courses and developers for 
-those courses could push their data to one unified source with REST 
-calls. All the data processing was to be done on our server, and thus by
- specifying and documenting a semantic, RESTful API, we could implement 
-the system quickly and easily.</p>
-
-<p><img alt="" src="sampleProject_files/videoanalytics5.png"></p>
-
-<h3>The Dashboard</h3>
-
-<p>The front-end dashboard was created with the help of SCSS and 
-Foundation 6, as well as AngularJS which handled all the REST calls to 
-our server through $service and promise chaining. Highcharts was used to
- display the data in a visual format, and the API could convert data to a
- highcharts-readable format so that the dashboard would automatically 
-display those charts without any additional front-end work.</p>
-
-<p><img alt="" src="sampleProject_files/video-analytics-1_extJy1s.png"></p>
-
-<p><img alt="" src="sampleProject_files/videoanalytics2.png" style="height:839px; width:1440px">Additional details available upon request.</p>
-                
             </div>
-        </div>
-        <div class="after-post columns">
-            <div class="related column col-6 col-sm-12 col-ml-auto">
-                <h3>Related Works</h3>
-                <div class="related">
-                    
-                        
-                            <ul class="related__post">
-                                <li>
-                                    <a class="body" href="https://juntan.me/posts/perspective">Perspective</a>
-                                </li>
-                            </ul>
-                        
-                            <ul class="related__post">
-                                <li>
-                                    <a class="body" href="https://juntan.me/posts/clio">Clio</a>
-                                </li>
-                            </ul>
-                        
-                            <ul class="related__post">
-                                <li>
-                                    <a class="body" href="https://juntan.me/posts/daily-texan-student-government-explorer">Daily Texan Student Government Explorer</a>
-                                </li>
-                            </ul>
-                        
-                    
-                </div>
-            </div>
-            <div class="contact col-3 col-sm-12 col-mr-auto">
-                <h3>Contact</h3>
-                <div class="columns">
-                    <a href="mailto:tanjunyuan@hotmail.co.uk" class="column col-3 col-sm-12">Email</a>
-                    <a href="https://instagram.com/_juntan" class="column col-12">Instagram</a>
-                    <a href="https://twitter.com/" class="column col-12">Twitter</a>
-                    <a href="https://www.linkedin.com/in/junyuan-tan-8162a2109/" class="column col-3 col-sm-12">LinkedIn</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!-- footer -->
-<div class="container">
-    <div class="columns">
-        <div class="footer col-4 col-mx-auto">
-            <p class="footer-text">Jun Tan, 2018</p>
-        </div>
-    </div>
-</div>
 </body></html>
